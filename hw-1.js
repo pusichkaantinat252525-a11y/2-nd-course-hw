@@ -55,7 +55,7 @@ alert(user.name);
 let userName = prompt("Как вас зовут?");
 alert(`Привет, ${userName}!`);
 
-// Дополнительно
+// Дополнительное задание
 let number = Number(prompt("Загадайте любое число"));
 let doubled = number * 2;
 alert(doubled);
