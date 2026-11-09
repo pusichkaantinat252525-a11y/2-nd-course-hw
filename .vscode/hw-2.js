@@ -28,7 +28,7 @@ let b = '3';
 alert(+a + +b);
 // Задание 5
 let monthNumber = 12;
-if (monthNumber > 13) {
+if (monthNumber > 13 || monthNumber < 0) {
     console.log('Такого месяца не существует');
 } else {
     switch (monthNumber) {
