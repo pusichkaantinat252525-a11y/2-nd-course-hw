@@ -23,7 +23,7 @@ let obj = {
     'Петя': '400'
 };
 for (let key in obj) {
-    console.log('${key} - зарплата ${obj[key]} долларов');
+    console.log(`${key} - зарплата ${obj[key]} долларов`);
 }
 // Задание 5
 let n = 1000;
@@ -37,7 +37,7 @@ console.log(num);
 // Задание 6
 let firstFriday = 3;
 for (let friday = firstFriday; friday <= 31; friday += 7) {
-    console.log('Сегодня пятница, &{friday}-e число. Необходимо подготовить отчет');
+    console.log('Сегодня пятница, ${friday}-e число. Необходимо подготовить отчет');
 }
   
 // Дополнительное задание 
