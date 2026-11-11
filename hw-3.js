@@ -37,7 +37,7 @@ console.log(num);
 // Задание 6
 let firstFriday = 3;
 for (let friday = firstFriday; friday <= 31; friday += 7) {
-    console.log('Сегодня пятница, ${friday}-e число. Необходимо подготовить отчет');
+    console.log(`Сегодня пятница, ${friday}-e число. Необходимо подготовить отчет`);
 }
   
 // Дополнительное задание 
