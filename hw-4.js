@@ -21,16 +21,22 @@ console.log(checkEven(4));
 console.log(checkEven(7));
 console.log(checkEven(0));
 
+
 // Задание 3
-
-function sumFromString(str) {
-    const numbers = str.split(' + ');
-    return +numbers[0] + +numbers[1];
+function printSquare(num) {
+    console.log(num ** 2);
 }
-console.log(sumFromString('10 + 20')); 
-console.log(sumFromString('5 + 15')); 
-console.log(sumFromString('30 + 0')); 
+function getSqure(num) {
+    return num ** 2;
+}
+printSquare(4);     
+printSquare(10);    
 
+console.log(getSqure(5));   
+console.log(getSqure(8) + 2); 
+// Пример
+let result = getSqure(7);
+console.log(result); 
 // Задание 4
 
 function correctAge(age) {
